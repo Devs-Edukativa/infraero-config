@@ -99,8 +99,8 @@
   color: white !important;
   padding: 20px 0;
   cursor: pointer;
-  width: 7rem;
-  height: 6rem;
+  width: 150px;
+  height: 150px;
   position: relative;
   transition: all 0.3s ease;
   font-family: "Poppins", sans-serif;
@@ -132,10 +132,10 @@
 .card-modulo-pnae h2 {
   color: white !important;
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: bolder !important;
   margin: 0;
   z-index: 1;
-  padding-left: 0.5 !important;
+  padding-left: 0 !important;
 }
 
 /* Ímpares */
