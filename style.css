@@ -193,46 +193,58 @@
   border-color: transparent transparent hsl(36, 100%, 45%) transparent;
 }
 
-/* Botão 5 - Azul Claro */
+/* Botão 5 - Vermelho */
 .wrapper-btn-pnae:nth-child(5) .btn-pnae {
-  background-color: hsl(201, 94%, 62%);
+  background-color: hsl(0, 100%, 50%);
 }
 .wrapper-btn-pnae:nth-child(5) .btn-pnae:hover {
-  background-color: hsl(201, 94%, 57%);
+  background-color: hsl(0, 100%, 45%);
 }
 .wrapper-btn-pnae:nth-child(5) .dobra-btn-pnae {
+  border-color: transparent transparent hsl(0, 100%, 45%) transparent;
+}
+
+
+/* Botão 6 - Azul Claro */
+.wrapper-btn-pnae:nth-child(6) .btn-pnae {
+  background-color: hsl(201, 94%, 62%);
+}
+.wrapper-btn-pnae:nth-child(6) .btn-pnae:hover {
+  background-color: hsl(201, 94%, 57%);
+}
+.wrapper-btn-pnae:nth-child(6) .dobra-btn-pnae {
   border-color: transparent transparent hsl(201, 94%, 57%) transparent;
 }
 
-/* Botão 6 - Azul Escuro */
-.wrapper-btn-pnae:nth-child(6) .btn-pnae {
+/* Botão 7 - Azul Escuro */
+.wrapper-btn-pnae:nth-child(7) .btn-pnae {
   background-color: hsl(202, 77%, 49%);
 }
-.wrapper-btn-pnae:nth-child(6) .btn-pnae:hover {
+.wrapper-btn-pnae:nth-child(7) .btn-pnae:hover {
   background-color: hsl(202, 77%, 44%);
 }
-.wrapper-btn-pnae:nth-child(6) .dobra-btn-pnae {
+.wrapper-btn-pnae:nth-child(7) .dobra-btn-pnae {
   border-color: transparent transparent hsl(202, 77%, 44%) transparent;
 }
 
-/* Botão 7 - Azul Médio */
-.wrapper-btn-pnae:nth-child(7) .btn-pnae {
+/* Botão 8 - Azul Médio */
+.wrapper-btn-pnae:nth-child(8) .btn-pnae {
   background-color: hsl(203, 90%, 41%);
 }
-.wrapper-btn-pnae:nth-child(7) .btn-pnae:hover {
+.wrapper-btn-pnae:nth-child(8) .btn-pnae:hover {
   background-color: hsl(203, 90%, 36%);
 }
-.wrapper-btn-pnae:nth-child(7) .dobra-btn-pnae {
+.wrapper-btn-pnae:nth-child(8) .dobra-btn-pnae {
   border-color: transparent transparent hsl(203, 90%, 36%) transparent;
 }
 
-/* Botão 8 - Azul Escuro */
-.wrapper-btn-pnae:nth-child(8) .btn-pnae {
+/* Botão 9 - Azul Escuro */
+.wrapper-btn-pnae:nth-child(9) .btn-pnae {
   background-color: hsl(208, 100%, 33%);
 }
-.wrapper-btn-pnae:nth-child(8) .btn-pnae:hover {
+.wrapper-btn-pnae:nth-child(9) .btn-pnae:hover {
   background-color: hsl(208, 100%, 28%);
 }
-.wrapper-btn-pnae:nth-child(8) .dobra-btn-pnae {
+.wrapper-btn-pnae:nth-child(9) .dobra-btn-pnae {
   border-color: transparent transparent hsl(208, 100%, 28%) transparent;
 }
