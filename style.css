@@ -193,15 +193,15 @@
   border-color: transparent transparent hsl(36, 100%, 45%) transparent;
 }
 
-/* Botão 5 - Vermelho */
+/* Botão 5 - Laranja Claro */
 .wrapper-btn-pnae:nth-child(5) .btn-pnae {
-  background-color: hsl(0, 100%, 50%);
+  background-color: hsl(34.23, 93.98%, 67.45%)
 }
 .wrapper-btn-pnae:nth-child(5) .btn-pnae:hover {
-  background-color: hsl(0, 100%, 45%);
+  background-color: hsl(34.23, 93.98%, 62.45%);
 }
 .wrapper-btn-pnae:nth-child(5) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(0, 100%, 45%) transparent;
+  border-color: transparent transparent hsl(34.23, 93.98%, 62.45%); transparent;
 }
 
 
