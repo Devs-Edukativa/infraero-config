@@ -138,113 +138,154 @@
   padding-left: 0 !important;
 }
 
-/* Ímpares */
+/* Ímpares - Azul escuro */
 .card-modulo-pnae:nth-child(odd) {
   background-color: #1f95dc;
 }
 
-/* Pares */
+/* Pares - Azul claro */
 .card-modulo-pnae:nth-child(even) {
   background-color: #45b5fb;
 }
 
-/* Estiliza os botões com base na posição do wrapper */
-/* Botão 1 - Verde */
-.wrapper-btn-pnae:nth-child(1) .btn-pnae {
-  background-color: hsl(120, 39%, 49%);
+/* Estilo específico para 8 unidades */
+.card-modulo-pnae:nth-child(1) {
+  background-color: #1f95dc;
 }
-.wrapper-btn-pnae:nth-child(1) .btn-pnae:hover {
-  background-color: hsl(120, 39%, 44%);
+.card-modulo-pnae:nth-child(2) {
+  background-color: #45b5fb;
 }
-.wrapper-btn-pnae:nth-child(1) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(120, 39%, 44%) transparent;
+.card-modulo-pnae:nth-child(3) {
+  background-color: #1f95dc;
 }
-
-/* Botão 2 - Verde Claro */
-.wrapper-btn-pnae:nth-child(2) .btn-pnae {
-  background-color: hsl(150, 69%, 48%);
+.card-modulo-pnae:nth-child(4) {
+  background-color: #45b5fb;
 }
-.wrapper-btn-pnae:nth-child(2) .btn-pnae:hover {
-  background-color: hsl(150, 69%, 43%);
+.card-modulo-pnae:nth-child(5) {
+  background-color: #1f95dc;
 }
-.wrapper-btn-pnae:nth-child(2) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(150, 69%, 43%) transparent;
+.card-modulo-pnae:nth-child(6) {
+  background-color: #45b5fb;
 }
-
-/* Botão 3 - Amarelo */
-.wrapper-btn-pnae:nth-child(3) .btn-pnae {
-  background-color: hsl(45, 100%, 51%);
+.card-modulo-pnae:nth-child(7) {
+  background-color: #1f95dc;
 }
-.wrapper-btn-pnae:nth-child(3) .btn-pnae:hover {
-  background-color: hsl(45, 100%, 46%);
-}
-.wrapper-btn-pnae:nth-child(3) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(45, 100%, 46%) transparent;
+.card-modulo-pnae:nth-child(8) {
+  background-color: #45b5fb;
 }
 
-/* Botão 4 - Laranja */
-.wrapper-btn-pnae:nth-child(4) .btn-pnae {
-  background-color: hsl(36, 100%, 50%);
+/* Botão Classes Específicas */
+
+/* Verde */
+.btn-verde {
+  background-color: #4caf50;
 }
-.wrapper-btn-pnae:nth-child(4) .btn-pnae:hover {
-  background-color: hsl(36, 100%, 45%);
+.btn-verde:hover {
+  background-color: #45a049;
 }
-.wrapper-btn-pnae:nth-child(4) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(36, 100%, 45%) transparent;
+.btn-verde-dobra {
+  border-color: transparent transparent #45a049 transparent;
 }
 
-/* Botão 5 - Laranja Claro */
-.wrapper-btn-pnae:nth-child(5) .btn-pnae {
-  background-color: hsl(34.23, 93.98%, 67.45%)
+/* Verde Escuro */
+.btn-verde-escuro {
+  background-color: #2e7d32;
 }
-.wrapper-btn-pnae:nth-child(5) .btn-pnae:hover {
-  background-color: hsl(34.23, 93.98%, 62.45%);
+.btn-verde-escuro:hover {
+  background-color: #1b5e20;
 }
-.wrapper-btn-pnae:nth-child(5) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(34.23, 93.98%, 62.45%); transparent;
-}
-
-
-/* Botão 6 - Azul Claro */
-.wrapper-btn-pnae:nth-child(6) .btn-pnae {
-  background-color: hsl(201, 94%, 62%);
-}
-.wrapper-btn-pnae:nth-child(6) .btn-pnae:hover {
-  background-color: hsl(201, 94%, 57%);
-}
-.wrapper-btn-pnae:nth-child(6) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(201, 94%, 57%) transparent;
+.btn-verde-escuro-dobra {
+  border-color: transparent transparent #1b5e20 transparent;
 }
 
-/* Botão 7 - Azul Escuro */
-.wrapper-btn-pnae:nth-child(7) .btn-pnae {
-  background-color: hsl(202, 77%, 49%);
+/* Amarelo */
+.btn-amarelo {
+  background-color: #ffd700;
+  color: #000 !important;
 }
-.wrapper-btn-pnae:nth-child(7) .btn-pnae:hover {
-  background-color: hsl(202, 77%, 44%);
+.btn-amarelo:hover {
+  background-color: #ffc700;
+  color: #000 !important;
 }
-.wrapper-btn-pnae:nth-child(7) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(202, 77%, 44%) transparent;
-}
-
-/* Botão 8 - Azul Médio */
-.wrapper-btn-pnae:nth-child(8) .btn-pnae {
-  background-color: hsl(203, 90%, 41%);
-}
-.wrapper-btn-pnae:nth-child(8) .btn-pnae:hover {
-  background-color: hsl(203, 90%, 36%);
-}
-.wrapper-btn-pnae:nth-child(8) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(203, 90%, 36%) transparent;
+.btn-amarelo-dobra {
+  border-color: transparent transparent #ffc700 transparent;
 }
 
-/* Botão 9 - Azul Escuro */
-.wrapper-btn-pnae:nth-child(9) .btn-pnae {
-  background-color: hsl(208, 100%, 33%);
+/* Laranja */
+.btn-laranja {
+  background-color: #ff8c00;
 }
-.wrapper-btn-pnae:nth-child(9) .btn-pnae:hover {
-  background-color: hsl(208, 100%, 28%);
+.btn-laranja:hover {
+  background-color: #ff7f00;
 }
-.wrapper-btn-pnae:nth-child(9) .dobra-btn-pnae {
-  border-color: transparent transparent hsl(208, 100%, 28%) transparent;
+.btn-laranja-dobra {
+  border-color: transparent transparent #ff7f00 transparent;
+}
+
+/* Laranja Claro */
+.btn-laranja-claro {
+  background-color: #ffa500;
+}
+.btn-laranja-claro:hover {
+  background-color: #ff9500;
+}
+.btn-laranja-claro-dobra {
+  border-color: transparent transparent #ff9500 transparent;
+}
+
+/* Azul Claro */
+.btn-azul-claro {
+  background-color: #87ceeb;
+  color: #000 !important;
+}
+.btn-azul-claro:hover {
+  background-color: #7bc8e7;
+  color: #000 !important;
+}
+.btn-azul-claro-dobra {
+  border-color: transparent transparent #7bc8e7 transparent;
+}
+
+/* Azul Médio */
+.btn-azul-medio {
+  background-color: #4682b4;
+}
+.btn-azul-medio:hover {
+  background-color: #36648b;
+}
+.btn-azul-medio-dobra {
+  border-color: transparent transparent #36648b transparent;
+}
+
+/* Azul Escuro */
+.btn-azul-escuro {
+  background-color: #1e90ff;
+}
+.btn-azul-escuro:hover {
+  background-color: #1873cc;
+}
+.btn-azul-escuro-dobra {
+  border-color: transparent transparent #1873cc transparent;
+}
+
+/* Azul Profundo */
+.btn-azul-profundo {
+  background-color: #0066cc;
+}
+.btn-azul-profundo:hover {
+  background-color: #0052a3;
+}
+.btn-azul-profundo-dobra {
+  border-color: transparent transparent #0052a3 transparent;
+}
+
+/* Certificado (Dourado) */
+.btn-certificado {
+  background-color: #f0ad4e;
+}
+.btn-certificado:hover {
+  background-color: #ec971f;
+}
+.btn-certificado-dobra {
+  border-color: transparent transparent #ec971f transparent;
 }
