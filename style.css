@@ -447,35 +447,35 @@
 }
 
 /* Cores específicas para EMERGÊNCIA - 8 unidades com degradê dourado */
-.card-modulo-pnae:nth-child(1) { 
+.card-modulo-emergencia:nth-child(1) { 
   background-color: #c9ae23 !important; 
   color: #4d4d4d !important; 
 }
-.card-modulo-pnae:nth-child(2) { 
+.card-modulo-emergencia:nth-child(2) { 
   background-color: #cfb433 !important; 
   color: #4d4d4d !important; 
 }
-.card-modulo-pnae:nth-child(3) { 
+.card-modulo-emergencia:nth-child(3) { 
   background-color: #d4ba41 !important; 
   color: #4d4d4d !important; 
 }
-.card-modulo-pnae:nth-child(4) { 
+.card-modulo-emergencia:nth-child(4) { 
   background-color: #d8c151 !important; 
   color: #4d4d4d !important; 
 }
-.card-modulo-pnae:nth-child(5) { 
+.card-modulo-emergencia:nth-child(5) { 
   background-color: #dfc65f !important; 
   color: #4d4d4d !important; 
 }
-.card-modulo-pnae:nth-child(6) { 
+.card-modulo-emergencia:nth-child(6) { 
   background-color: #e5ce6e !important; 
   color: #4d4d4d !important; 
 }
-.card-modulo-pnae:nth-child(7) { 
+.card-modulo-emergencia:nth-child(7) { 
   background-color: #ead57c !important; 
   color: #4d4d4d !important; 
 }
-.card-modulo-pnae:nth-child(8) { 
+.card-modulo-emergencia:nth-child(8) { 
   background-color: #f0db8c !important; 
   color: #4d4d4d !important; 
 }
