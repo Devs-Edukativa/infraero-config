@@ -9,12 +9,10 @@
 }
 
 .container-buttons-pnae {
-  display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 0.75rem;
+  width: 100%;
 }
 
 .wrapper-btn-pnae {
@@ -42,7 +40,7 @@
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   font-weight: bold;
-  width: 170px;
+  width: 210px;
   height: 100px;
   z-index: 2;
 }
