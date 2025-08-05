@@ -644,14 +644,14 @@
 
 /* Conteúdo do card */
 .card-modulo-sescinc span {
-  font-size: 32px !important;
+  font-size: 18px !important;
   color: white;
   font-weight: bold;
   z-index: 1;
 }
 
 .card-modulo-sescinc h2 {
-  font-size: 32px !important;
+  font-size: 18px !important;
   color: white !important;
   font-weight: bold !important;
   margin: 0;
