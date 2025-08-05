@@ -529,6 +529,7 @@
   justify-content: start;
   align-items: end;
   background-color: #676767;
+  color: #FFFFFF;
   position: relative; /* Permite posicionar a barra em relação ao container */
   z-index: 1; /* Garante que a barra fique acima do fundo */
   height: 8rem; /* Altura da barra */
@@ -537,7 +538,7 @@
 }
 
 .container-trilhas-aprendizagem-emergencia h2 {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
   font-family: "Poppins", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
@@ -643,14 +644,14 @@
 
 /* Conteúdo do card */
 .card-modulo-sescinc span {
-  font-size: 1.2rem;
+  font-size: 32px !important;
   color: white;
   font-weight: bold;
   z-index: 1;
 }
 
 .card-modulo-sescinc h2 {
-  font-size: 1.2rem;
+  font-size: 32px !important;
   color: white !important;
   font-weight: bold !important;
   margin: 0;
