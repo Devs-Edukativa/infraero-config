@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.container-funprespjud {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.container-buttons-funprespjud {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.wrapper-btn-funprespjud {
+  display: flex;
+}
+
+.dobra-btn-funprespjud {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 20px solid #4caf50;
+}
+
+.btn-funprespjud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px white solid;
+  color: white !important;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  font-weight: bold;
+  width: 210px;
+  height: 100px;
+  z-index: 2;
+}
+
+.container-conteudo-completo-funprespjud {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-trilhas-aprendizagem-funprespjud {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: end;
+  background-color: #0f2137;
+  position: relative; /* Permite posicionar a barra em relação ao container */
+  z-index: 1; /* Garante que a barra fique acima do fundo */
+  height: 8rem; /* Altura da barra */
+  margin-top: -3rem; /* Faz a barra "invadir" os cards */
+  padding-left: 8rem;
+}
+
+.container-trilhas-aprendizagem-funprespjud h2 {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.container-modulos-funprespjud {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+  position: relative;
+  z-index: 0; /* Garante que os cards fiquem abaixo da barra */
+}
+
+.container-modulos-funprespjud {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.card-modulo-funprespjud {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf50;
+  color: white !important;
+  padding: 20px 0;
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  transition: all 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  clip-path: polygon(
+    0% 0%,
+    /* Canto superior esquerdo */ 100% 0%,
+    /* Canto superior direito */ 100% 80%,
+    /* Lado direito antes de iniciar o triângulo */ 50% 100%,
+    /* Ponta inferior do triângulo */ 0% 80%
+      /* Lado esquerdo antes de iniciar o triângulo */
+  );
+}
+
+/* Efeito hover para o card */
+.card-modulo-funprespjud:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Conteúdo do card */
+.card-modulo-funprespjud span {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.card-modulo-funprespjud h2 {
+  color: white !important;
+  font-size: 32px;
+  font-weight: bolder !important;
+  margin: 0;
+  z-index: 1;
+  padding-left: 0 !important;
+}
+
+/* Ímpares */
+.card-modulo-funprespjud:nth-child(odd) {
+  background-color: #0578be;
+}
+
+/* Pares */
+.card-modulo-funprespjud:nth-child(even) {
+  background-color: #98BBDF;
+}
+
+/* Estiliza os botões com base na posição do wrapper */
+/* Degradê de #0e506a (azul escuro) até #fbba00 (amarelo) */
+
+/* Botão 1 - #0e506a */
+.wrapper-btn-funprespjud:nth-child(1) .btn-funprespjud {
+  background-color: #0e506a;
+}
+.wrapper-btn-funprespjud:nth-child(1) .btn-funprespjud:hover {
+  background-color: #0b4058;
+}
+.wrapper-btn-funprespjud:nth-child(1) .dobra-btn-funprespjud {
+  border-color: transparent transparent #0b4058 transparent;
+}
+
+/* Botão 2 - #2d5f62 */
+.wrapper-btn-funprespjud:nth-child(2) .btn-funprespjud {
+  background-color: #2d5f62;
+}
+.wrapper-btn-funprespjud:nth-child(2) .btn-funprespjud:hover {
+  background-color: #244d50;
+}
+.wrapper-btn-funprespjud:nth-child(2) .dobra-btn-funprespjud {
+  border-color: transparent transparent #244d50 transparent;
+}
+
+/* Botão 3 - #4c6e5a */
+.wrapper-btn-funprespjud:nth-child(3) .btn-funprespjud {
+  background-color: #4c6e5a;
+}
+.wrapper-btn-funprespjud:nth-child(3) .btn-funprespjud:hover {
+  background-color: #3d5949;
+}
+.wrapper-btn-funprespjud:nth-child(3) .dobra-btn-funprespjud {
+  border-color: transparent transparent #3d5949 transparent;
+}
+
+/* Botão 4 - #6b7d52 */
+.wrapper-btn-funprespjud:nth-child(4) .btn-funprespjud {
+  background-color: #6b7d52;
+}
+.wrapper-btn-funprespjud:nth-child(4) .btn-funprespjud:hover {
+  background-color: #566542;
+}
+.wrapper-btn-funprespjud:nth-child(4) .dobra-btn-funprespjud {
+  border-color: transparent transparent #566542 transparent;
+}
+
+/* Botão 5 - #8a8c4a */
+.wrapper-btn-funprespjud:nth-child(5) .btn-funprespjud {
+  background-color: #8a8c4a;
+}
+.wrapper-btn-funprespjud:nth-child(5) .btn-funprespjud:hover {
+  background-color: #6f713c;
+}
+.wrapper-btn-funprespjud:nth-child(5) .dobra-btn-funprespjud {
+  border-color: transparent transparent #6f713c transparent;
+}
+
+/* Botão 6 - #a99b42 */
+.wrapper-btn-funprespjud:nth-child(6) .btn-funprespjud {
+  background-color: #a99b42;
+}
+.wrapper-btn-funprespjud:nth-child(6) .btn-funprespjud:hover {
+  background-color: #897d35;
+}
+.wrapper-btn-funprespjud:nth-child(6) .dobra-btn-funprespjud {
+  border-color: transparent transparent #897d35 transparent;
+}
+
+/* Botão 7 - #c8aa3a */
+.wrapper-btn-funprespjud:nth-child(7) .btn-funprespjud {
+  background-color: #c8aa3a;
+}
+.wrapper-btn-funprespjud:nth-child(7) .btn-funprespjud:hover {
+  background-color: #a18a2f;
+}
+.wrapper-btn-funprespjud:nth-child(7) .dobra-btn-funprespjud {
+  border-color: transparent transparent #a18a2f transparent;
+}
+
+/* Botão 8 - #e1b21d */
+.wrapper-btn-funprespjud:nth-child(8) .btn-funprespjud {
+  background-color: #e1b21d;
+}
+.wrapper-btn-funprespjud:nth-child(8) .btn-funprespjud:hover {
+  background-color: #b69018;
+}
+.wrapper-btn-funprespjud:nth-child(8) .dobra-btn-funprespjud {
+  border-color: transparent transparent #b69018 transparent;
+}
+
+/* Botão 9 - #fbba00 */
+.wrapper-btn-funprespjud:nth-child(9) .btn-funprespjud {
+  background-color: #fbba00;
+}
+.wrapper-btn-funprespjud:nth-child(9) .btn-funprespjud:hover {
+  background-color: #cc9800;
+}
+.wrapper-btn-funprespjud:nth-child(9) .dobra-btn-funprespjud {
+  border-color: transparent transparent #cc9800 transparent;
+}
