@@ -160,90 +160,79 @@
   border-color: transparent transparent #0b4058 transparent;
 }
 
-/* Botão 2 - #2d5f62 */
+/* Botão 2 - #245e63 */
 .wrapper-btn-funprespjud:nth-child(2) .btn-funprespjud {
-  background-color: #2d5f62;
+  background-color: #245e63;
 }
 .wrapper-btn-funprespjud:nth-child(2) .btn-funprespjud:hover {
-  background-color: #244d50;
+  background-color: #1c4b4f;
 }
 .wrapper-btn-funprespjud:nth-child(2) .dobra-btn-funprespjud {
-  border-color: transparent transparent #244d50 transparent;
+  border-color: transparent transparent #1c4b4f transparent;
 }
 
-/* Botão 3 - #4c6e5a */
+/* Botão 3 - #3a6d5c */
 .wrapper-btn-funprespjud:nth-child(3) .btn-funprespjud {
-  background-color: #4c6e5a;
+  background-color: #3a6d5c;
 }
 .wrapper-btn-funprespjud:nth-child(3) .btn-funprespjud:hover {
-  background-color: #3d5949;
+  background-color: #2e574a;
 }
 .wrapper-btn-funprespjud:nth-child(3) .dobra-btn-funprespjud {
-  border-color: transparent transparent #3d5949 transparent;
+  border-color: transparent transparent #2e574a transparent;
 }
 
-/* Botão 4 - #6b7d52 */
+/* Botão 4 - #507c55 */
 .wrapper-btn-funprespjud:nth-child(4) .btn-funprespjud {
-  background-color: #6b7d52;
+  background-color: #507c55;
 }
 .wrapper-btn-funprespjud:nth-child(4) .btn-funprespjud:hover {
-  background-color: #566542;
+  background-color: #406344;
 }
 .wrapper-btn-funprespjud:nth-child(4) .dobra-btn-funprespjud {
-  border-color: transparent transparent #566542 transparent;
+  border-color: transparent transparent #406344 transparent;
 }
 
-/* Botão 5 - #8a8c4a */
+/* Botão 5 - #668b4e */
 .wrapper-btn-funprespjud:nth-child(5) .btn-funprespjud {
-  background-color: #8a8c4a;
+  background-color: #668b4e;
 }
 .wrapper-btn-funprespjud:nth-child(5) .btn-funprespjud:hover {
-  background-color: #6f713c;
+  background-color: #526f3e;
 }
 .wrapper-btn-funprespjud:nth-child(5) .dobra-btn-funprespjud {
-  border-color: transparent transparent #6f713c transparent;
+  border-color: transparent transparent #526f3e transparent;
 }
 
-/* Botão 6 - #a99b42 */
+/* Botão 6 - #7c9a47 */
 .wrapper-btn-funprespjud:nth-child(6) .btn-funprespjud {
-  background-color: #a99b42;
+  background-color: #7c9a47;
 }
 .wrapper-btn-funprespjud:nth-child(6) .btn-funprespjud:hover {
-  background-color: #897d35;
+  background-color: #637b39;
 }
 .wrapper-btn-funprespjud:nth-child(6) .dobra-btn-funprespjud {
-  border-color: transparent transparent #897d35 transparent;
+  border-color: transparent transparent #637b39 transparent;
 }
 
-/* Botão 7 - #c8aa3a */
+/* Botão 7 - #92a940 */
 .wrapper-btn-funprespjud:nth-child(7) .btn-funprespjud {
-  background-color: #c8aa3a;
+  background-color: #92a940;
 }
 .wrapper-btn-funprespjud:nth-child(7) .btn-funprespjud:hover {
-  background-color: #a18a2f;
+  background-color: #758733;
 }
 .wrapper-btn-funprespjud:nth-child(7) .dobra-btn-funprespjud {
-  border-color: transparent transparent #a18a2f transparent;
+  border-color: transparent transparent #758733 transparent;
 }
 
-/* Botão 8 - #e1b21d */
+/* Botão 8 - #fbba00 */
 .wrapper-btn-funprespjud:nth-child(8) .btn-funprespjud {
-  background-color: #e1b21d;
-}
-.wrapper-btn-funprespjud:nth-child(8) .btn-funprespjud:hover {
-  background-color: #b69018;
-}
-.wrapper-btn-funprespjud:nth-child(8) .dobra-btn-funprespjud {
-  border-color: transparent transparent #b69018 transparent;
-}
-
-/* Botão 9 - #fbba00 */
-.wrapper-btn-funprespjud:nth-child(9) .btn-funprespjud {
   background-color: #fbba00;
 }
-.wrapper-btn-funprespjud:nth-child(9) .btn-funprespjud:hover {
+.wrapper-btn-funprespjud:nth-child(8) .btn-funprespjud:hover {
   background-color: #cc9800;
 }
-.wrapper-btn-funprespjud:nth-child(9) .dobra-btn-funprespjud {
+.wrapper-btn-funprespjud:nth-child(8) .dobra-btn-funprespjud {
   border-color: transparent transparent #cc9800 transparent;
 }
